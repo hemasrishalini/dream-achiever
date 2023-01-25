@@ -8,19 +8,21 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the Nth term in a Fibonacci series using recursion
+
+
 public class FibonacciRecursion {
     public static void main(String[] args){
-        int n = 4; 
+       int n = 3;
        System.out.println(number(n));
     }
-    public static  int  number(int n ){
+    public static int number(int n){
         if(n==1){
-            return 0; 
+            return 0;
         }else if(n==2){
             return 1;
         }else{
-            return number(n-1)+number(n-2);
+            return number(n-1)+ number(n-2);
         }
     }
-    
 }

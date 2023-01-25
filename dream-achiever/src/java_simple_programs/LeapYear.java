@@ -8,6 +8,9 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to check leap year
+
+
 public class LeapYear {
     public static void main(String[] args){
        leapYear(1900); 

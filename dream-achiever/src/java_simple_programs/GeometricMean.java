@@ -8,20 +8,21 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the geometric mean of n numbers
+
+
 public class GeometricMean {
     public static void main(String[] args){
-        double[] nums = new double[]{3,3,3};
+        double[] nums = new double[]{3,4,5};
         geometricMean(nums);
     }
     public static double geometricMean(double[] nums){
         double pr = 1;
-        for(int i = 0; i<nums.length; i++){
-            pr = pr*nums[i];
+        for (int i =0 ;i<nums.length; i++){
+            pr =pr*nums[i];
         }
-        //geometric mean product power 1/n //(number,powervalue)
         double gm = Math.pow(pr,1.0/nums.length);
         System.out.println(gm);
         return gm;
     }
-    
 }

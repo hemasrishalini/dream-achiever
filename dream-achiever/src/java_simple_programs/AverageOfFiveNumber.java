@@ -8,20 +8,22 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the average of 5 numbers using a while loop
+
+
 public class AverageOfFiveNumber {
     public static void main(String[] args){
-        int[] nums = new int[]{1,2,3,4,8};
-        average(nums);
-    } 
+        int[] nums = new int[]{2,3,4,5,6};
+        System.out.println(average(nums));
+    }
     public static float average(int[] nums){
         float sum = 0;
-        int i =0;
+        int i = 0;
         while(i<nums.length){
-            sum=sum+nums[i];
+            sum =sum + nums[i];
             i++;
         }
         float avg = sum/nums.length;
-        System.out.println(avg);
         return avg;
     }
 }

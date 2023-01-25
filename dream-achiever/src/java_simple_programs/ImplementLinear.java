@@ -8,23 +8,25 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to implement linear search
+
+
 public class ImplementLinear {
     public static void main(String[] args){
-        int[] nums = new int[]{1,2,3,4,5};
-        linearSearch(nums,7);
+        int[] nums = new int[]{2,3,3,4};
+        linear(nums,4);
     }
-    public static void linearSearch(int[] nums,int target){
+    public static void linear(int[] nums, int target){
         boolean found = false;
-        for(int i =0; i<nums.length; i++){
+        for(int i = 0; i <nums.length; i++){
             if(target==nums[i]){
-                System.out.println("successful search the element is found at position is:" +i);
+                System.out.println("sucessful search "+ i);
                 found = true;
                 break;
             }
         }
         if(!found){
-            System.out.println("not successful search");
+            System.out.println("not search sucessful");
         }
     }
-    
 }

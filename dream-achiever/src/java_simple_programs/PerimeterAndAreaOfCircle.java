@@ -8,15 +8,18 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the circumference and area of a circle with a given radius
+
+
 public class PerimeterAndAreaOfCircle {
     public static void main(String[] args){
-        circle(9.9);
-        
+        circle(8);
     }
     public static void circle(double rad){
         double perimeter = 2*Math.PI*rad;
         double area = Math.PI*rad*rad;
         System.out.println(perimeter);
         System.out.println(area);
+        
     }
 }

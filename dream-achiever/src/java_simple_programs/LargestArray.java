@@ -8,9 +8,12 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the largest number in an array without using built-in functions
+
+
 public class LargestArray {
     public static void main(String[] args){
-        int[] nums = {1,5,2,6,3};
+        int[] nums = {2,3,1,3};
         largestNumber(nums);
     }
     public static int largestNumber(int[] nums){

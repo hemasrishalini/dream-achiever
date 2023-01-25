@@ -8,32 +8,22 @@ package java_simple_programs;
  *
  * @author hemas
  */
-
+//Java program to check whether the given number is even or odd
 
 public class NumberOddOrEven{
-    
-    int x=0;
-    int y=0;
-    int z=0;
-    
-    public void oddOrEven (int number){
-        int reminder = number%2;
-        if(reminder==0){
-            System.out.println("even");
-        }else{
-            System.out.println("odd");
-        } 
-    }
     public static void main(String[] args){
-        NumberOddOrEven obj = new NumberOddOrEven();
-        obj.oddOrEven(20);
-        obj.oddOrEven(3);
-        obj.oddOrEven(0);
-        obj.oddOrEven(-1);
+        number(22);
+    }
+    public static void number(int num){
+        int reminder = num%2;
+        if(reminder%2==0){
+            System.out.println("the given number is even");
+        }else{
+            System.out.println("the given number is odd" );
+        }
+        
     }
     
 }
 
-class A{
-    
-}
+ 

@@ -10,12 +10,12 @@ package java_simple_programs;
  */
 public class ProductOfRealNumbers {
     public static void main(String[] args){
-        double[] nums = new double[]{1.1,2.9,3.8};
+        double[] nums = new double[]{1,2,3,4,5};
         product(nums);
     }
     public static double product(double[] nums){
         double pr = 1;
-        for( int i=0; i<nums.length; i++){
+        for(int i = 0; i<nums.length; i++){
             pr = pr*nums[i];
         }
         System.out.println(pr);

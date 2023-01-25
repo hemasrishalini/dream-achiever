@@ -8,6 +8,9 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to display the sum of n numbers using an array
+
+
 public class SumNArray {
     public static void main(String[] args){
        int[] n = new int[]{-1,-1,-1,-1};
@@ -19,9 +22,9 @@ public class SumNArray {
     public static int number(int[] n){
         System.out.println("number");
         int sum = 0;
-        for(int r=0; r<n.length; r++){
-            System.out.println(n[r]);
-            sum = sum+n[r];
+        for(int i=0; i<n.length; i++){
+            System.out.println(n[i]);
+            sum = sum+n[i];
         }
         
         System.out.println(sum);

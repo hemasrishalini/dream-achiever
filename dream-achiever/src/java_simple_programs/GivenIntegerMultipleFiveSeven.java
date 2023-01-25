@@ -8,19 +8,20 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to check whether the given integer is a multiple of both 5 and 7
+
+
 public class GivenIntegerMultipleFiveSeven {
     public static void main(String[] args){
-        fiveSeven(35);
-        fiveSeven(43);
+        fiveSeven(35); 
     }
     public static void fiveSeven(int num){
-        int reminder =num%5;
-        int reminder2 =num%7;
-        if((reminder==0)&&(reminder2==0)){
-            System.out.println(num+"is a multiple of 5 & 7");
+        int reminder = num%5;
+        int reminder2 = num%7;
+        if((reminder==0)&&(reminder==0)){
+            System.out.println("given integer is multiple of 5 and 7");
         }else{
-            System.out.println(num+"is not a multiple of 5 & 7");
+            System.out.println("given integer is not multiple og 5 and 7");
         }
     }
-    
 }

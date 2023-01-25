@@ -10,9 +10,9 @@ package java_simple_programs;
  */
 public class MultipleRange {
     public static void main(String[] args){
-        multiple(10,50,10);
+        multiple(10,50,6);
     }
-    public static void multiple(int start ,int end, int m){
+    public static void multiple(int start ,int end,int m ){
         for(int i=start; i<end; i++){
             if(i%m==0){
                 System.out.println(i);

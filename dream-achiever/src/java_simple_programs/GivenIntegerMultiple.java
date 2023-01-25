@@ -8,18 +8,19 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to check whether the given integer is a multiple of 5
+
+
 public class GivenIntegerMultiple {
     public static void main(String[] args){
-        multiple(15);
-        multiple(3);
-        
+        multiple(57);
     }
     public static void multiple(int num){
         int reminder = num%5;
         if(reminder==0){
-            System.out.println(num+ "is a multiple of 5");
+            System.out.println("given integer is multiple of 5");
         }else{
-            System.out.println(num+"is not multiple of 5");
+            System.out.println("given integer is not multiple of 5");
         }
     }
 }

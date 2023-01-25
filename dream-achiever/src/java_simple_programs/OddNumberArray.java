@@ -8,9 +8,12 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to find the number of odd numbers in an array
+
+
 public class OddNumberArray {
     public static void main(String[] args){
-       int[] nums = new int[]{1,2,3,4,5,6,7,8,9};
+       int[] nums = new int[]{2,3,8,9,7,5};
        odd(nums);
     }
     public static void odd(int[] nums){

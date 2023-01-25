@@ -10,7 +10,7 @@ package java_simple_programs;
  */
 public class IntegerOfPrimeNumber {
     public static void main(String[] args){
-        prime(85);
+        prime(22);
     }
     public static void prime(int num){
         boolean isprime = true;

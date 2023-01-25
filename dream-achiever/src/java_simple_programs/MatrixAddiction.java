@@ -8,23 +8,26 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to implement matrix addition
+
+
 public class MatrixAddiction {
     public static void main(String[] args){
-        int a[][] = {{1,2,3,4},{5,6,7,8}};
-        int b[][] = {{9,8,7,6},{5,4,3,2}};
-        add(a,b,a.length, a[0].length);
-    }
-    public static int[][] add(int[][] a, int[][] b ,int m, int n){
-       int[][] c = new int[m][n];
-       for(int i =0; i<m; i++){
-           for(int j =0; j<n; j++){
-               c[i][j] = a[i][j]+b[i][j];
-               System.out.print(c[i][j]+" ");
-           }
-           System.out.println(" ");
-       }
-       return c;
-    }
+        int a[][] = new int[][] {{6,5,4},{3,2,1}};
+        int b[][] = new int[][]{{1,2,3},{4,5,6}};
+        add(a,b,a.length); 
+     }
+    public static int[][] add(int a[][], int b[][],int n){
+        int c[][] = new int[n][n];
+        for(int i =0; i<n ;i++){
+            for(int j=0; j<n; j++){
+                c[i][j]=a[i][j]+b[i][j];
+                System.out.print(c[i][j]+" ");
+             }
+            System.out.println(" ");
+         }
+        return c;
+     }
 }
 /*
 a   0 1 2 3

@@ -8,7 +8,24 @@ package java_simple_programs;
  *
  * @author hemas
  */
-public class FactorialRecursion {
+//Java program to find the factorial of a number using recursion
+public class FactorialRecursion{
+    public static void main (String[] args){
+        int x = factorial(4);
+        System.out.println(x);
+    }
+    public static int factorial(int num){
+        if(num==1){
+            return 1;
+        }
+        f = factorial(num-1);
+        return f;
+    }
+}
+
+
+
+/*public class FactorialRecursion {
      public static void main(String[] args){
         System.out.println("end");
         int x =factorial(3);

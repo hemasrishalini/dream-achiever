@@ -8,6 +8,9 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java program to generate the prime numbers from 1 to N
+
+
 public class PrimeNumber1ToN {
     public static void main(String[] args){
         primeNumber(72);

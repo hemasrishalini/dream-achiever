@@ -8,6 +8,9 @@ package java_simple_programs;
  *
  * @author hemas
  */
+//Java Program to Check Whether the Generated Random Number Is Even or Odd
+
+
 import java.util.Random;
 
 
