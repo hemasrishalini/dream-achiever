@@ -22,9 +22,9 @@ public class TwoDimensionalArray {
         int sum = 0;
         for(int i=0 ;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
-                System.out.println("i="+i+" j="+j);
+                /*System.out.println("i="+i+" j="+j);
                 System.out.println("number: "+number);
-                System.out.println("sum: "+sum);
+                System.out.println("sum: "+sum);*/
                 if(i==j){
                     matrix[i][j]=number;
                     sum=sum+matrix[i][j];
@@ -32,7 +32,7 @@ public class TwoDimensionalArray {
                 }else{
                     matrix[i][j]=0;
                 }
-                //System.out.print(matrix[i][j] + " ");
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }

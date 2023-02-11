@@ -13,8 +13,8 @@ package java_simple_programs;
 
 public class ConvertCelsiusToFahrenhiet {
     public static void main(String[] args){
-        ConvertCelsiusToFahrenhiet obj = new ConvertCelsiusToFahrenhiet();
-        System.out.println(obj.c2f(5));
+        //ConvertCelsiusToFahrenhiet obj = new ConvertCelsiusToFahrenhiet();
+        System.out.println(c2f(5));
     }
     public static float c2f(float celsius){
         float f = (celsius*9/5)+32;

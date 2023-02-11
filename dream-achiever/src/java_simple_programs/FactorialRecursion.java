@@ -9,17 +9,18 @@ package java_simple_programs;
  * @author hemas
  */
 //Java program to find the factorial of a number using recursion
+//4*3*2*1
 public class FactorialRecursion{
     public static void main (String[] args){
-        int x = factorial(4);
+        int x = factorial(4);  
         System.out.println(x);
     }
     public static int factorial(int num){
         if(num==1){
             return 1;
         }
-        f = factorial(num-1);
-        return f;
+        //int f = num* factorial(num-1);
+        return num*factorial(num-1);
     }
 }
 

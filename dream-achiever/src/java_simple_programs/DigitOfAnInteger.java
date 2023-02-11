@@ -8,7 +8,7 @@ package java_simple_programs;
  *
  * @author hemas
  */
-//Java program to display all integers within the range 100-150 whose sum of digits is an even number
+//Java program to find the sum of the digits of an integer using a while loop
 
 
 public class DigitOfAnInteger {
@@ -17,7 +17,9 @@ public class DigitOfAnInteger {
     }
     public static void digitInteger(int num){
         int sum = 0;
+        System.out.println("aaaa");
         while(num!=0){
+            System.out.println("bbbb");
             int digit = num%10;
             sum = sum +digit;
             num = num/10;

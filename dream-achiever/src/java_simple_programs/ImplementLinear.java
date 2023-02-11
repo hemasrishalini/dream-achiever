@@ -14,7 +14,7 @@ package java_simple_programs;
 public class ImplementLinear {
     public static void main(String[] args){
         int[] nums = new int[]{2,3,3,4};
-        linear(nums,4);
+        linear(nums,3);
     }
     public static void linear(int[] nums, int target){
         boolean found = false;

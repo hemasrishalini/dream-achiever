@@ -12,7 +12,7 @@ public class BMI {
     public static void main(String[] args){
         float w = 52;
         float h = 56;
-        value(w,h);
+        value(h,w);
     }
     public static  double value(float h ,float w){
         

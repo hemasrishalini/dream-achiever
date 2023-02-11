@@ -9,6 +9,8 @@ package java_simple_programs;
  * @author hemas
  */
 //Java program to find the area of a triangle whose three sides are given 
+//s=perimeter/2
+//perimeter=sum of sides =a+b+c
 
 public class AreaOfTriangle {
     public static void main(String[] args){

@@ -24,5 +24,6 @@ public class DeleteElementArray {
         
         number.remove(1);
         System.out.println(number);
+        System.out.println(number.size());
     }
 }

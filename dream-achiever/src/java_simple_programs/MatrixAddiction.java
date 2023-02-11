@@ -16,18 +16,18 @@ public class MatrixAddiction {
         int a[][] = new int[][] {{6,5,4},{3,2,1}};
         int b[][] = new int[][]{{1,2,3},{4,5,6}};
         add(a,b,a.length); 
-     }
+    }
     public static int[][] add(int a[][], int b[][],int n){
         int c[][] = new int[n][n];
         for(int i =0; i<n ;i++){
             for(int j=0; j<n; j++){
                 c[i][j]=a[i][j]+b[i][j];
                 System.out.print(c[i][j]+" ");
-             }
+            }
             System.out.println(" ");
-         }
+        }
         return c;
-     }
+    }
 }
 /*
 a   0 1 2 3
